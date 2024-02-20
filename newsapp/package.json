@@ -1,0 +1,28 @@
+{
+  "name": "newsapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-calendar": "^4.1.0",
+    "react-datepicker": "^4.10.0",
+    "react-dom": "18.2.0",
+    "react-html5video": "^2.5.1",
+    "react-icons": "^4.8.0",
+    "react-multi-carousel": "^2.8.3",
+    "react-player": "^2.12.0"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^5.2.6",
+    "sass": "^1.59.3"
+  }
+}

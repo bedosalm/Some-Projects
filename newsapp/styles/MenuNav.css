@@ -1,0 +1,22 @@
+.red{
+    color: red;
+}
+.navbar {
+    background-color: #000;
+}
+.navbar-brand{
+color: #fff;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: #fff;
+}
+.dropdown-toggle::after{
+    border: none;
+}
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: red !important;
+  }

@@ -1,0 +1,44 @@
+@import '_color';
+.RightSideNews{
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    h4{
+        margin: 15px 0 15px 0;
+    }
+    ul{
+        padding-left: 0;
+        li{
+            margin-bottom: 10px;
+            position: relative;
+            padding: 0 15px 0 37px;
+            transition: all 0.5s ease-in-out;
+            display: block;
+            span{
+                color: $main;
+                font-size: 21px;
+                position: absolute;
+                left: -4px;
+                top: 8px;
+                transition: all 0.5s ease-in-out;
+
+            }
+            a{
+                color: #fff;
+            }
+            &:hover{
+              margin-left:10px;
+              span{
+                color: #fff;
+              }
+            }
+        }
+    }
+    button{
+        display: block;
+        margin: 25px auto 10px;
+        width: 70%;
+        background-color: $main;
+        text-transform: capitalize;
+        color: #fff;
+    }
+}
